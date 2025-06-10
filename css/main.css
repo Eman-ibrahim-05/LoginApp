@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background: linear-gradient(rgba(97, 83, 84, 0.7), rgba(97, 83, 84, 0.7)), url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+
+.container {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+

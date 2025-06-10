@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(rgba(109, 83, 86, 0.4), rgba(109, 83, 86, 0.4)), url(../images/welcome/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 2);
+}
+#brand{
+     font-family: "Edu VIC WA NT Hand Pre", cursive;
+     font-size: 35px;
+     font-weight: 600 !important;
+}
+#welcome {
+    margin-top: 8rem !important;
+}
+
+#userNameWelcome {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgb(199, 189, 199);
+}
